@@ -11,7 +11,7 @@ header{
     width: 100%;
     height: 10px;
     padding: 20px 100px;
-    background: #910404e2;
+    background: rgb(139, 98, 180);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,14 +71,14 @@ body{
 .form{
     display: flex ;
     flex-direction: column;
-    height: 500px;
+    height: 450px;
     width: 400px;
-    border: 1px solid black;
+    border: 1px solid rgb(188, 171, 171);
     align-items: center;
     margin: auto;
-    margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    background-color: rgba(108, 100, 100, 0.5);
+    box-shadow: inset -5px -5px rgba(108, 100, 100, 0.5);
     border-radius: 25px;
 }
 .form h1{
@@ -91,6 +91,7 @@ body{
     padding: 12px;
     margin: 20px;
     width: 65%;
+    background: transparent;
     border: none;
     outline: none;
     border-radius: 20px;
@@ -99,9 +100,9 @@ body{
     color: white;
     font-size: 1rem;
 }
-#submit{
+.btn{
     padding: 10px 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 50%;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
@@ -109,9 +110,45 @@ body{
     border: none;
     outline: none;
     border-radius: 20px;
+    cursor: pointer;
     font-size: 1rem;
 }
-#submit:hover{
+.remember-forget {
+    font-size: .8rem;
+    color: white;
+    font-weight: 400;
+    margin: -7px 0 7px;
+    justify-content: space-between;
+}
+.remember-forget label input{
+    accent-color: rgb(65, 47, 169);
+    margin-right: 3px;
+}
+.remember-forget a {
+    color: blue;
+    text-decoration: none;
+    font-weight: 400;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+.login-Register{
+    font-size: .8em;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin: 15px 0 10px;
+    justify-content: space-between;
+}
+.login-Register p a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 400;
+}
+.login-Register p a:hover{
+    text-decoration: underline;
+}
+.btn{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.1);
     color: white;

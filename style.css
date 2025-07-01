@@ -46,10 +46,10 @@ header{
     transform: scaleX(1);
  }
 .navigation .btnLogin-popup {
-    width: 40px;
-    height: 10px;
+    width: 50px;
+    height: 30px;
     background: transparent;
-    border: 3px solid #fff;
+    border: 3px solid;
     outline: none;
     border-radius: 4px;
     cursor: pointer;
